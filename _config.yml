@@ -99,5 +99,5 @@ theme: 3-hexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-    repo: https://github.com/smile3/smile3.github.io.git
-    branch: gh-pages
+  repo: https://github.com/smile3/smile3.github.io.git
+  branch: gh-pages

@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: smile-blog
-subtitle: '博客记录'
+title: smile3-blog
+subtitle: '博客'
 description: ''
 keywords: java,python,node,vue
 author: smile3
@@ -100,4 +100,4 @@ theme: 3-hexo
 deploy:
   type: git
   repo: https://github.com/smile3/smile3.github.io.git
-  branch: gh-pages
+  branch: master

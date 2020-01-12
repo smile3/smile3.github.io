@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: smile3-blog
-subtitle: '博客'
-description: ''
-keywords: java,python,node,vue
-author: smile3
+title: 菜鸟鸟巢
+subtitle: '一个菜鸟的老巢，慢慢整理技术，打磨自己'
+description: '程序员的博客'
+keywords: java,python,node,vue,linux,vm,esxi,html,js,javascript,pve,黑苹果,黑群晖,IT,程序员
+author: smile
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

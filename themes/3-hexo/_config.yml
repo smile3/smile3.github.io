@@ -11,23 +11,8 @@ blog_path: /
 link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
-    rss:
     github: https://github.com/smile3
-    facebook:
-    twitter:
-    linkedin:
-    instagram:
-    reddit:
-    weibo:
-    jianshu:
-    zhihu:
-    csdn:
-    oschina:
-    juejin:
     email: lihui55555@gmail.com
-    qq:
-    kugou:
-    neteasemusic:
 
 ##########多作者模式############
 author:

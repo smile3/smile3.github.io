@@ -2,7 +2,7 @@
 title: nexus orientdb数据库损坏处理办法
 tags: nexus,question
 originContent: ''
-categories: '运维,nexus'
+categories: [运维, 持续集成,nexus]
 toc: false
 ---
 

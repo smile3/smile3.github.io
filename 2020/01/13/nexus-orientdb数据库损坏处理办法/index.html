@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>菜鸟鸟巢</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="菜鸟鸟巢">
+  <title>nexus orientdb数据库损坏处理办法 | 菜鸟鸟巢</title>
+  <meta name="keywords" content=" nexus,question ">
+  <meta name="description" content="nexus orientdb数据库损坏处理办法 | 菜鸟鸟巢">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="个人简介  93年人菜鸟  14年毕业于河南师范大学  现于上海从事JAVA及其相关工作  喜欢学习各类新的技术  想要不断完善自己的技术，争取以后让别人觉得自己是老鸟   联系方式  见头像下方">
 <meta property="og:type" content="website">
@@ -67,7 +67,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -281,12 +281,59 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-nexus-orientdb数据库损坏处理办法" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#关于本站"><span class="toc-text">关于本站</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#为了记录-为了约束"><span class="toc-text">为了记录 为了约束</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#菜鸟鸟巢"><span class="toc-text">菜鸟鸟巢</span></a></li></ol></li></ol>
+        <h1 class="article-title">nexus orientdb数据库损坏处理办法</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            
+                <a  data-rel="运维">运维</a>/
+            
+                <a  data-rel="持续集成">持续集成</a>/
+            
+                <a  data-rel="nexus">nexus</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a class="color5">nexus,question</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2020-01-13 13:35:06'>2020-01-13 13:04</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题记录"><span class="toc-text">问题记录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#问题如下"><span class="toc-text">问题如下</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#解决办法"><span class="toc-text">解决办法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实际操作"><span class="toc-text">实际操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考以下链接"><span class="toc-text">参考以下链接</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -299,24 +346,48 @@
     }
 </style>
 </div>
-            <h1 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h1><h2 id="为了记录-为了约束"><a href="#为了记录-为了约束" class="headerlink" title="为了记录 为了约束"></a>为了记录 为了约束</h2><p>  大多数的人都是懒惰的，我当然也不例外，可谓懒人一个，但是，人虽然懒了点，但是谁让自己既不是官二代<br>  也不是富二代，那就好好学习好好工作吧，本站是为了记录一下自己的学习，约束自己</p>
-<p>  我认为，大多数的技术而言，学习是有四个阶段的，</p>
-<p>  第一阶段，学了，知道  </p>
-<p>  第二阶段，知道了，会用</p>
-<p>  第三阶段，会用后，能改</p>
-<p>  第四阶段，自己能创  </p>
-<p>  但是，我还认为，人的精力是有限的，牛人遍地走那是小说才有的情景，所以，对于技术而言，<br>  我不认为一定要学到第四阶段，对于多数技术来说，第二阶段就可以糊口了，甚至，如果不是<br>  从事研发类型的岗位而言，可能会用的更多对于公司而言作用更大，因为老板并不关心你对这<br>  个技术了解程度到底是会用，还是你能写个新的出来，他只关心的是，你能不能解决这个问题，<br>  基于以上原则，我倾向于广撒网，当然，会用也分三六九，这就视情况而定了。</p>
-<p>  本站于2020年初始开始创建，不再为找各种各样的理由，开始了就走下去吧。</p>
-<h2 id="菜鸟鸟巢"><a href="#菜鸟鸟巢" class="headerlink" title="菜鸟鸟巢"></a>菜鸟鸟巢</h2><p><strong>菜鸟鸟巢</strong> 是我的的个人博客站，慢慢整理一下自己的技术，免得自己偷懒。</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h2><p>过了一个周末过来，jenkins无法构建npm项目了，提示服务器500错误，登陆服务器查看日志后发现是orientdb数据库损坏了，提示需要导出到json后再次导入</p>
+<h2 id="问题如下"><a href="#问题如下" class="headerlink" title="问题如下"></a>问题如下</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm ERR! code E500</span><br><span class="line">npm ERR! 500 javax.servlet.ServletException: com.orientechnologies.orient.core.exception.OPageIsBrokenException: Following files and pages are detected to be broken [&#39;assetdownloadcount_node_id_repository_name_asset_name_date_type_date_idx.sbt&#39; :136;], storage is switched to &#39;read only&#39; mode. Any modification operations are prohibited. To restore database and make it fully operational you may export and import database to and from JSON.??    DB name&#x3D;&quot;component&quot;: @babel&#x2F;runtime@7.7.7</span><br></pre></td></tr></table></figure>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>解决办法为通过容器控制台进入容器中，找到orientdb控制台<br>然后进行数据库的导入导出</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#打开nexus目录</span><br><span class="line"> cd &#x2F;opt&#x2F;sonatype&#x2F;nexus&#x2F;</span><br><span class="line">#打开orient数据库控制台</span><br><span class="line">java -jar .&#x2F;lib&#x2F;support&#x2F;nexus-orient-console.jar</span><br><span class="line">#界面输出</span><br><span class="line">OrientDB console v.2.2.36 (build d3beb772c02098ceaea89779a7afd4b7305d3788, branch 2.2.x) https:&#x2F;&#x2F;www.orientdb.com</span><br><span class="line">Type &#39;help&#39; to display all the supported commands.</span><br><span class="line">orientdb&gt;</span><br><span class="line"></span><br><span class="line">#连接数据库</span><br><span class="line">CONNECT PLOCAL:&#x2F;nexus-data&#x2F;db&#x2F;component admin admin</span><br><span class="line">#导出数据库</span><br><span class="line">EXPORT DATABASE .&#x2F;export-demo.export</span><br><span class="line">#删除数据库 </span><br><span class="line">drop database</span><br><span class="line">#创建新的component数据库</span><br><span class="line">create database PLOCAL:&#x2F;nexus-data&#x2F;db&#x2F;component</span><br><span class="line">#再次连接</span><br><span class="line">CONNECT PLOCAL:&#x2F;nexus-data&#x2F;db&#x2F;component admin admin</span><br><span class="line">#导入数据库</span><br><span class="line">import DATABASE .&#x2F;export-demo.export.gz</span><br><span class="line">#重启nexus</span><br></pre></td></tr></table></figure>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<h2 id="参考以下链接"><a href="#参考以下链接" class="headerlink" title="参考以下链接"></a>参考以下链接</h2><p><a href="https://www.jianshu.com/p/999593fd7eb9" target="_blank" rel="noopener">Nexus3 OrientDB Console使用</a><br><a href="https://www.w3cschool.cn/orientdb/orientdb-mx931xi1.html" target="_blank" rel="noopener">OrientDB教程</a></p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 lihui55555@gmail.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>nexus orientdb数据库损坏处理办法</p>
+    
+    <p><span class="copy-title">本文作者:</span><a  title="smile">smile</a></p>
+    <p><span class="copy-title">发布时间:</span>2020-01-13, 13:04:01</p>
+    <p><span class="copy-title">最后更新:</span>2020-01-13, 13:35:06</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/01/13/nexus-orientdb%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8D%9F%E5%9D%8F%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95/" title="nexus orientdb数据库损坏处理办法">https://smile3.github.io/2020/01/13/nexus-orientdb%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8D%9F%E5%9D%8F%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2020 smile</p>

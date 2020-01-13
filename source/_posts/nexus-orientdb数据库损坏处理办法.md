@@ -1,6 +1,6 @@
 ---
 title: nexus orientdb数据库损坏处理办法
-tags: nexus
+tags: nexus,question
 originContent: ''
 categories: '运维,nexus'
 toc: false

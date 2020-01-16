@@ -2,6 +2,6 @@
 title: {{ title }}
 date: {{ date }}
 categories: 
-- [后端,待分类]
+- [运维,待分类]
 tags:
 ---

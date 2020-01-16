@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories: '运维'
+categories: 
+- [杂货,待分类]
 tags:
 ---
